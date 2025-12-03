@@ -14,8 +14,13 @@ More tools and notes will be added as I continue learning.
 📌 Table of Contents
 
 RPC Endpoints
+
 Manual Block Parsing
+
 RLP Construction Guide
+
 Useful Hex Utilities
+
 Challenge Notes
+
 Glossary
