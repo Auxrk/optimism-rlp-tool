@@ -14,3 +14,5 @@
 - Challenge 12 — Process...
     
 Note: Talent.app scoreboard lags behind (shows 9/12 instead of 11/12).
+
+- Challenge 12 — Done ☑️
