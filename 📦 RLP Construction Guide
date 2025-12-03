@@ -1,0 +1,9 @@
+This section includes clear manual rules for constructing RLP:
+
+Encoding Rules
+
+If value < 128 → one byte
+
+If value length ≤ 55 → prefix = 0x80 + len
+
+If list length ≤
