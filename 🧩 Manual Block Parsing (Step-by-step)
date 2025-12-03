@@ -1,0 +1,39 @@
+
+
+This section explains how to decode a raw Optimism block by hand, without code:
+
+Convert the block number to hex (e.g., 10542300 → 0xA0E7AC)
+
+Use eth_getBlockByNumber
+
+From the result, manually identify:
+
+parentHash
+
+sha3Uncles
+
+miner
+
+stateRoot
+
+transactionsRoot
+
+receiptsRoot
+
+logsBloom
+
+gas values
+
+Decode fields using base conversions:
+
+baseFeePerGas → decimal Gwei
+
+gasUsed → decimal
+
+timestamp → readable date
+
+Extract raw bytes (remove 0x, split in pairs)
+
+Prepare them as RLP byte arrays
+
+This gives beginners hands-on understanding of how an Optimism block is structured.
