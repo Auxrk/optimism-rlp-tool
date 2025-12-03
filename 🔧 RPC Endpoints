@@ -1,0 +1,22 @@
+A curated list of Optimism RPC endpoints that work well for manual requests:
+
+Public RPCs
+
+https://mainnet.optimism.io
+
+https://optimism.publicnode.com
+
+https://1rpc.io/op
+
+Sepolia Testnet
+
+https://sepolia.optimism.io
+
+Each endpoint supports raw JSON-RPC calls such as:
+
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_getBlockByNumber",
+  "params": ["0xA3B24C", false]
+}
