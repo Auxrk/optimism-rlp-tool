@@ -12,6 +12,7 @@ The repo is intended for beginners who want to work with raw block data step-by-
 More tools and notes will be added as I continue learning.
 
 📌 Table of Contents
+
 RPC Endpoints
 Manual Block Parsing
 RLP Construction Guide
